@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.joke-container{
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+    background-color: aquamarine;
+    margin: auto;
+}
+.joke-container h1,p{
+    text-align: center;
+}
+.display-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+   margin:30px auto;
+   
+}
+.display{
+    width: 90%;
+    height: 80px;
+    border: 2px solid gray;
+    padding: 15px 8px;
+}
+button{
+    width: 100px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
